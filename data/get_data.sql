@@ -1,4 +1,5 @@
-SELECT r.id,
+CREATE TABLE flattened_table 
+AS SELECT r.id,
 r.age,
 r.workclass_id,
 wc.name AS 'workclass_name',
